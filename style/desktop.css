@@ -1,0 +1,35 @@
+/* Root variables */
+:root {
+  --li-size: 1.8rem;
+}
+/* Default configurations. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+/* Header */
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav__elem {
+  font-size: var(--li-size);
+  font-family: "Inter", sans-serif;
+}
+.nav__elem__logo {
+  justify-content: flex-start;
+}
+.nav__elem a {
+  margin: 0.5rem;
+}
