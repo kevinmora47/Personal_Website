@@ -1,5 +1,6 @@
 /* Root variables */
 :root {
+  font-size: 16px;
   --li-size: 1.8rem;
 }
 /* Default configurations. */
@@ -10,13 +11,12 @@
   list-style: none;
   text-decoration: none;
 }
-html {
-  font-size: 62.5%;
-}
+
 /* Header */
 header nav {
   display: flex;
   justify-content: flex-end;
+  margin-right: 20rem;
 }
 .nav__container {
   display: flex;
@@ -27,9 +27,19 @@ header nav {
   font-size: var(--li-size);
   font-family: "Inter", sans-serif;
 }
-.nav__elem__logo {
-  justify-content: flex-start;
-}
 .nav__elem a {
   margin: 0.5rem;
+  font-size: 1rem;
+}
+
+main {
+  margin-top: 8rem;
+}
+/* Main Section */
+main .main-logo img {
+  width: 55rem;
+}
+.items-right {
+  display: flex;
+  justify-content: flex-end;
 }
