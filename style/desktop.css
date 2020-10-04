@@ -1,40 +1,18 @@
-/* Root variables */
-/* Desktop Css */
-:root {
-  --li-size: 20rem;
-  --default-color:color:black;
-}
-/* Default configurations. */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
-html {
-  font-size: 10px;
 }
 
-/* Header */
-header nav {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 20rem;
-}
-.nav__container {
-  border: 0.1rem red dashed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav__elem {
-  font-size: var(--li-size);
-  font-family: "Inter", sans-serif;
-}
-.nav__elem a {
-  margin: 0.5rem;
-  font-size: 1rem;
+body {
+  font-family: "Nunito", sans-serif;
 }
 
-/* Main Section */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mulish", sans-serif;
+}
