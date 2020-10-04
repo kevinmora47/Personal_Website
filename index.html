@@ -4,38 +4,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./resources/logo.svg" type="image/x-icon">
   <title>KMVX</title>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact Me</a></li>
-      </ul>
-    </nav>
+  <header class="header">
+    <div>
+      <figure class="header__logo">
+        <img src="./resources/logo.svg" height="30px" alt="Principal ilustration logo.">
+      </figure>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <section>
+  <section class="hero">
     <h1>
       Hi, I'm Kevin I'm a <strong>software developer</strong><br />
       love to <strong>teach</strong> and <strong>write</strong> code!
     </h1>
+    <figure>
+      <img src="./resources/main-ilustration.svg" width="400" alt="">
+    </figure>
   </section>
-  <section>
-    <h2>Portfolio</h2>
-    <article>
-      <h3>Netflix App</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptas quos dolorem qui blanditiis molestias
+  <section class="portfolio">
+    <h2 class="portfolio__title">Portfolio</h2>
+    <article class="project">
+      <h3 class="project__title">Netflix App</h3>
+      <p class="project__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptas quos
+        dolorem qui blanditiis molestias
         alias, quidem cupiditate debitis, ea autem nostrum officiis, est distinctio ab repudiandae commodi iusto fugiat!
       </p>
+      <figure class="project__image__container">
+        <img class="project__image " src="" alt="">
+      </figure>
     </article>
   </section>
-  <section>Contact</section>
-  <footer>Footer</footer>
+  <section>
+    <form action="#">
+      <label for="email">Email</label>
+      <input type="text" placeholder="Leave your mail!" id="email">
+      <button>Send</button>
+    </form>
+  </section>
+  <footer class="footer">Footer</footer>
 </body>
 
 </html>
