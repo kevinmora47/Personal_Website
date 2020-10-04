@@ -1,8 +1,8 @@
 /* Root variables */
 /* Desktop Css */
 :root {
-  font-size: 16px;
-  --li-size: 1.8rem;
+  --li-size: 20rem;
+  --default-color:color:black;
 }
 /* Default configurations. */
 * {
@@ -12,6 +12,9 @@
   list-style: none;
   text-decoration: none;
 }
+html {
+  font-size: 10px;
+}
 
 /* Header */
 header nav {
@@ -20,6 +23,7 @@ header nav {
   margin-right: 20rem;
 }
 .nav__container {
+  border: 0.1rem red dashed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,14 +37,4 @@ header nav {
   font-size: 1rem;
 }
 
-main {
-  margin-top: 8rem;
-}
 /* Main Section */
-main .main-logo img {
-  width: 55rem;
-}
-.items-right {
-  display: flex;
-  justify-content: flex-end;
-}
