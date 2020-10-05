@@ -1,13 +1,63 @@
+/* Env Configurations */
+:root {
+  --text-color: #484949;
+  --primary-color: #55d0a2;
+  --secondary-color: #b5e3fd;
+  --third-color: #b288ea;
+}
+/*Default Configurations.  */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   font-family: "Nunito", sans-serif;
 }
-
+.wrapper {
+  margin: 0 200px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+}
+.header ul {
+  display: flex;
+  height: inherit;
+}
+.header ul li {
+  height: inherit;
+}
+.header__nav {
+  height: inherit;
+  padding-right: 300px;
+}
+.header a {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.header figure {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding-left: 300px;
+}
+.header a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--text-color);
+}
+figure {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 h1,
 h2,
 h3,
@@ -15,4 +65,135 @@ h4,
 h5,
 h6 {
   font-family: "Mulish", sans-serif;
+  font-weight: 700;
+}
+p,
+span,
+a {
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.5em;
+  letter-spacing: -1.5;
+  margin: 0;
+  color: var(--text-color);
+}
+h1 .primary {
+  color: var(--primary-color);
+}
+h1 .secondary {
+  color: var(--secondary-color);
+}
+h1 .third {
+  color: var(--third-color);
+}
+h2 {
+  color: var(--text-color);
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.hero {
+  margin: 120px 0;
+  padding: 0 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.portfolio {
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  margin: 0 300px;
+  padding: 20px;
+}
+.portfolio .portfolio__title {
+  color: white;
+}
+.project__details {
+  width: 500px;
+}
+.project {
+  border-radius: 10px;
+  padding: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact {
+  color: var(--text-color);
+  background-color: #f7fdff;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact {
+  padding: 50px;
+  height: 300px;
+  margin: 30px 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact__form {
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact div a {
+  padding: 0 10px;
+}
+.contact__form__input {
+  margin: 10px 0;
+}
+.contact h2 {
+  margin: 0;
+}
+.form input {
+  border-color: var(--text-color);
+  padding: 5px 25px 5px 25px;
+  background-image: url("../resources/mail-icon.png");
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-size: 15px 15px;
+  background-position-y: center;
+  border-radius: 10px;
+  border-style: solid;
+}
+.form button {
+  display: block;
+  margin-top: 10px;
+  background: transparent;
+  font-size: 18px;
+  background-color: var(--third-color);
+  color: white;
+  height: 40px;
+  width: 270px;
+  border-radius: 5px;
+}
+.social {
+  display: inline-block;
+}
+.footer {
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-between;
+  padding: 0 520px;
+}
+.footer div p span {
+  color: white;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
 }

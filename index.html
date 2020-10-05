@@ -7,14 +7,16 @@
   <link rel="shortcut icon" href="./resources/logo.svg" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;700&family=Nunito:wght@300&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="./style/desktop.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
   <title>KMVX</title>
 </head>
 
 <body>
-  <header class="header">
-    <div>
+  <div class="wrapper">
+    <header class="header">
       <figure class="header__logo">
-        <img src="./resources/logo.svg" height="30px" alt="Principal ilustration logo.">
+        <img src="./resources/nav-icon.svg" height="70px" alt="Principal ilustration logo.">
       </figure>
       <nav class="header__nav">
         <ul>
@@ -25,38 +27,57 @@
           <li><a href="#">Contact Me</a></li>
         </ul>
       </nav>
-    </div>
-  </header>
-  <section class="hero">
-    <h1>
-      Hi, I'm Kevin I'm a <strong>software developer</strong><br />
-      love to <strong>teach</strong> and <strong>write</strong> code!
-    </h1>
-    <figure>
-      <img src="./resources/main-ilustration.svg" width="400" alt="">
-    </figure>
-  </section>
-  <section class="portfolio">
-    <h2 class="portfolio__title">Portfolio</h2>
-    <article class="project">
-      <h3 class="project__title">Netflix App</h3>
-      <p class="project__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptas quos
-        dolorem qui blanditiis molestias
-        alias, quidem cupiditate debitis, ea autem nostrum officiis, est distinctio ab repudiandae commodi iusto fugiat!
-      </p>
-      <figure class="project__image__container">
-        <img class="project__image " src="" alt="">
+    </header>
+    <section class="hero">
+      <h1 class="hero__title">
+        Hi, I'm Kevin I'm a <br> <strong class="primary">software developer</strong><br />
+        love to <strong class="secondary">teach</strong> and <strong class="third"> <br> write</strong> code!
+      </h1>
+      <figure>
+        <img src="./resources/main-ilustration.svg" height="300" width="400" alt="">
       </figure>
-    </article>
-  </section>
-  <section>
-    <form action="#">
-      <label for="email">Email</label>
-      <input type="text" placeholder="Leave your mail!" id="email">
-      <button>Send</button>
-    </form>
-  </section>
-  <footer class="footer">Footer</footer>
+    </section>
+    <section class="portfolio">
+      <h2 class="portfolio__title">Portfolio</h2>
+      <article class="project">
+        <div class=" project__details">
+          <h3 class="project__title">Netflix App</h3>
+          <p class="project__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptas quos
+            dolorem qui blanditiis molestias
+            alias, quidem cupiditate debitis, ea autem nostrum officiis, est distinctio ab repudiandae commodi iusto
+            fugiat!
+          </p>
+        </div>
+        <figure>
+          <img src="../Personal_Website/resources/main-ilustration.svg" height="300" width="300" alt="">
+        </figure>
+      </article>
+    </section>
+    <section class="contact">
+      <div class="contact__form">
+        <form action="#" class="form">
+          <h2>Do we do something together?</h2>
+          <label for="email"> <strong>Email:</strong></label>
+          <input type="text" placeholder="Leave your mail!" id="email" class="contact__form__input">
+          <button>Send Email</button>
+        </form>
+      </div>
+      <div class="social">
+        <a href=""><img src="https://img.icons8.com/color/50/000000/linkedin.png" /></a>
+        <a href=""> <img src="https://img.icons8.com/plasticine/50/000000/instagram.png" /></a>
+        <a href=""> <img src="https://img.icons8.com/officel/50/000000/twitter.png" /></a>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <div>
+      <p><span>Kevin Andrey Mora Vásquez</span></p>
+    </div>
+    <div>
+      <p><span>Hecho con <\3 by Kevin</span>
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>
