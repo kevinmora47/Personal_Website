@@ -55,7 +55,7 @@ body {
   color: var(--text-color);
 }
 figure {
-  margin: 0;
+  margin: 30px;
 }
 ul {
   list-style: none;
@@ -114,9 +114,11 @@ h2 {
 }
 .portfolio .portfolio__title {
   color: white;
+  display: inline;
 }
 .project__details {
   width: 500px;
+  text-align: justify;
 }
 .project {
   border-radius: 10px;
@@ -125,6 +127,18 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.project figure iframe {
+  border-radius: 10px;
+}
+.project .project__details h3 {
+  margin-bottom: 20px;
+}
+.project .project__details ul strong li {
+  color: var(--third-color);
+}
+.project .project__details ul {
+  margin: 5px 0;
 }
 .contact {
   color: var(--text-color);
