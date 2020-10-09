@@ -11,11 +11,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: "Nunito", sans-serif;
 }
 .wrapper {
-  margin: 0 200px;
+  margin: 0 10rem;
 }
 .header {
   display: flex;
@@ -75,10 +78,11 @@ p,
 span,
 a {
   color: var(--text-color);
+  font-size: 1.4rem;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3rem;
   line-height: 1.5em;
   letter-spacing: -1.5;
   margin: 0;
@@ -99,9 +103,9 @@ h2 {
   margin-bottom: 40px;
 }
 .hero {
-  margin: 120px 0;
-  padding: 0 300px;
-  height: 300px;
+  margin: 12rem 0;
+  padding: 0 30rem;
+  height: 30rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
