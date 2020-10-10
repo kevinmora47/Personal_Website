@@ -168,6 +168,9 @@ h2 {
 .contact__form form label strong {
   font-size: 1.5rem;
 }
+.contact__form form h1 {
+  color: #5eaec9;
+}
 .contact div {
   display: flex;
   align-items: center;
