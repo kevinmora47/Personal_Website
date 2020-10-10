@@ -23,7 +23,6 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  height: 90px;
 }
 .header ul {
   display: flex;
@@ -35,6 +34,8 @@ body {
 .header__nav {
   height: inherit;
   padding-right: 300px;
+  display: flex;
+  align-items: center;
 }
 .header a {
   height: inherit;
@@ -48,17 +49,12 @@ body {
 }
 .header figure {
   height: inherit;
-  display: flex;
-  align-items: center;
   padding-left: 300px;
 }
 .header a {
   list-style: none;
   text-decoration: none;
   color: var(--text-color);
-}
-figure {
-  margin: 30px;
 }
 ul {
   list-style: none;
@@ -104,7 +100,7 @@ h2 {
   margin-bottom: 40px;
 }
 .hero {
-  margin: 12rem 0;
+  margin: 5rem 0;
   padding: 0 30rem;
   height: 30rem;
   display: flex;
@@ -145,13 +141,17 @@ h2 {
 .project .project__details ul {
   margin: 5px 0;
 }
+.project__description {
+  margin-right: 50px;
+}
 .contact {
   color: var(--text-color);
-  background-color: #f7fdff;
+  background-color: #d4edf5;
   height: 300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-radius: 10px;
 }
 .contact {
   padding: 50px;
@@ -165,7 +165,9 @@ h2 {
   display: flex;
   justify-content: flex-start;
 }
-
+.contact__form form label strong {
+  font-size: 1.5rem;
+}
 .contact div {
   display: flex;
   align-items: center;
@@ -190,6 +192,9 @@ h2 {
   background-position-y: center;
   border-radius: 10px;
   border-style: solid;
+}
+.form input:active {
+  border: none;
 }
 .form button {
   display: block;
