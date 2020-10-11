@@ -114,7 +114,8 @@ h2 {
   padding: 20px;
 }
 .portfolio .portfolio__title {
-  color: white;
+  color: #044b31;
+  margin: 10px 0;
   display: inline;
 }
 .project__details {
