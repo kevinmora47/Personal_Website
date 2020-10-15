@@ -76,8 +76,9 @@ header {
 }
 /* Hover state */
 .header nav ul li a:hover .to-right {
-  width: 65px;
+  width: 70px;
   text-align: center;
+  padding: 0 5px;
   color: white;
   border-radius: 5px;
   transition: 0.8s;
@@ -167,9 +168,18 @@ h2 {
   margin: 10px 0;
   display: inline;
 }
+.portfolio h3 {
+  font-size: 2rem;
+}
 .project__details {
   width: 500px;
   text-align: justify;
+}
+.project p {
+  font-size: 1.7rem;
+}
+.project li {
+  font-size: 1.5rem;
 }
 .project {
   border-radius: 10px;
