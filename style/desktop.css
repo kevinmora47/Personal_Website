@@ -34,8 +34,8 @@ header {
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #f8f9fa;
-  height: 80px;
+  background-color: #f0efef;
+  height: 60px;
 }
 .header ul {
   display: flex;
@@ -61,6 +61,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 300;
   background: linear-gradient(
     90deg,
     rgba(85, 208, 162, 1) 0%,
@@ -96,6 +97,28 @@ header {
   color: var(--text-color);
   font-weight: 500;
 }
+.contact_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin: auto 0;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: white;
+  outline: none;
+  border: 2px solid #22986d;
+  margin-left: 10px;
+}
+.contact_header:hover {
+  background-color: #09714b;
+  border: #043b27;
+}
 ul {
   list-style: none;
   padding: 0;
@@ -108,7 +131,7 @@ h4,
 h5,
 h6 {
   font-family: "Mulish", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   text-align: justify;
 }
 p,
@@ -258,6 +281,9 @@ h2 {
   border: none;
   box-shadow: 10 10 5 0;
 }
+.contact__form .contact__form__button:hover {
+  background-color: #521d96;
+}
 .form input {
   border-color: var(--text-color);
   padding: 5px 25px 5px 25px;
@@ -302,8 +328,8 @@ h2 {
   border-radius: 5px;
 }
 .button:hover {
-  background-color: #7d45c5;
-  width: fit-content;
+  background-color: #521d96;
+  /* width: fit-content; */
   padding: 2px;
   transition: 0.3s;
 }
@@ -313,12 +339,12 @@ h2 {
 .footer {
   color: var(--text-color);
   background-color: var(--primary-color);
-  height: 100px;
+  height: 80px;
   display: flex;
   align-items: center;
   vertical-align: middle;
   justify-content: space-between;
-  padding: 0 520px;
+  padding: 0 315px;
 }
 .footer div p span {
   color: white;
