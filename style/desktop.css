@@ -225,6 +225,9 @@ h2 {
 }
 .project__description {
   margin-right: 50px;
+  border: 1px var(--third-color) dashed;
+  padding: 10px;
+  border-radius: 10px;
 }
 .contact {
   color: var(--text-color);
