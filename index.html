@@ -5,40 +5,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="./resources/logo.svg" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500;700&family=Nunito:wght@300&display=swap"
-    rel="stylesheet">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   <link rel="stylesheet" href="./style/desktop.css">
   <script src="https://unpkg.com/scrollreveal"></script>
   <title>KMVX</title>
 </head>
 
 <body>
-
-    <header class="header">
-      <figure class="header__logo">
-        <img src="./resources/nav-icon.svg" height="50px" width="60" alt="Principal ilustration logo.">
-      </figure>
-      <nav class="header__nav">
-        <ul>
-          <li><a href="#"><span class="to-right">Home</span></a></li>
-          <li><a href="./src/courses.html"><span class="to-right">Courses</span></a></li>
-          <li><a href="#"><span class="to-right">Blog</span></a></li>
-          <li><a href="#"><span class="to-right">Portfolio</span></a></li>
-          <button class="contact_header">Contact</button>
-        </ul>
-      </nav>
-    </header>
-    <div class="wrapper">
+  <div class="wrapper"> 
+  <header class="header">
+    <img src="./static/logo.svg" height="40" alt="" style="padding-right: 1rem;">
+    <span class="header__name">KMVX</span>
+    <ul class="header__items">
+      <li class="header__item_tutorial">Tutorials</li>
+      <li class="header__item_blog">Blog</li>
+      <li class="header__item_contact">Contact</li>
+    </ul>
+    <span class="header__userName">Kevin Mora V.</span>
+    <img src="./static/Profile_Pic.jpg" height="40px" alt="" style="border-radius: 30px;"/>
+  </header>    
+  
     <section class="hero">
+      <div class="hero__content">
       <h1 class="hero__title">
-        Hi, I'm Kevin I'm a <br> <strong class="primary">software developer</strong><br />
-        love to <strong class="secondary">teach</strong> and <strong class="third"> <br> write</strong> code!
-      </h1>
+        <span>Hi, I'm Kevin</span> <br> <strong class="primary">Software Developer</strong><br />
+        <span>I love to <strong class="secondary">teach</strong><span>&</span><strong class="third ">write </strong>code!</span>
+      </h1> 
+      <div class="hero__content__social">
+        <img src="./static/github.svg" height="30" alt="">
+      <img src="./static/linkedin-square.svg" height="30" alt="">
+      <img src="./static/twitter.svg" height="30" alt="">
+      </div>      
+    </div>
       <figure>
-        <img src="./resources/main-ilustration.svg" height="400" width="450" alt="">
-        <div class="buttons">
-          <button class="button">Let's Talk!</button>
-        </div> 
+        <img src="./static/main-ilustration.svg" height="600" width="450" alt="">
       </figure> 
     </section>
     <section class="portfolio">
