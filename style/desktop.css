@@ -332,7 +332,6 @@ h2 {
 }
 .button:hover {
   background-color: #521d96;
-  /* width: fit-content; */
   padding: 2px;
   transition: 0.3s;
 }
