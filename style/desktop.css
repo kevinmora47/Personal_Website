@@ -115,6 +115,7 @@ header {
   border: 2px solid #22986d;
   margin-left: 10px;
 }
+/* Hover state */
 .contact_header:hover {
   background-color: #09714b;
   border: #043b27;
@@ -270,15 +271,18 @@ h2 {
 .contact h2 {
   margin: 0;
 }
+/* Focus State */
 .contact__form input:focus {
   border-radius: 10px;
   border: none;
 }
+/* Hover state */
 .contact__form input:hover {
   border-radius: 10px;
   border: none;
   box-shadow: 10 10 5 0;
 }
+/* Active states */
 .contact__form input:active {
   border-radius: 10px;
   border: none;
