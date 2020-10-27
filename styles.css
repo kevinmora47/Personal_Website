@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #f7931a;
-  --secondary-color: #ffe9d5;
-  --third-color: #1a9af7;
+  --primary-color: #55d0a2;
+  --secondary-color: #b5e3fd;
+  --third-color: #b288ea;
   --third-color-soft: #1a9af7;
   --warm-black: #201e1c;
   --grey: #bababa;
@@ -26,11 +26,11 @@ header {
   min-width: 320px;
   height: 334px;
   text-align: center;
-  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
+  background: linear-gradient(207.8deg, #b5e3fd 16.69%, #55d0a2 100%);
 }
 header img {
   width: 150px;
-  height: 24px;
+  height: 50px;
   margin-top: 60px;
   align-self: center;
 }
@@ -54,16 +54,16 @@ header img {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8;
-  color: var(--secondary-color);
+  color: white;
 }
 .header--title--container .header--button {
   position: absolute;
-  left: calc(50% - 118px);
+  left: calc(50% - 80px);
   top: 270px;
   display: block;
   margin-top: 35px;
   padding: 15px;
-  width: 229px;
+  width: 150px;
   height: 48px;
   background-color: var(--off-white);
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
@@ -105,12 +105,12 @@ main {
   margin: 0 auto;
 }
 .main--exchange--container .backgroundImg {
-  width: 200px;
+  width: 300px;
   height: 200px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background-image: url("./assets/imgs/bitcoin.svg");
-  background-size: cover;
+  background-image: url("./assets/micelanious/main-ilustration.svg");
+  /* background-size: cover; */
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -121,7 +121,6 @@ main {
   line-height: 2.5rem;
 }
 .main--exchange--container p {
-  /* padding: 10px; */
   margin-bottom: 30px;
   font-size: 1.4rem;
   font-weight: bold;
@@ -214,6 +213,13 @@ main {
   font-size: 1.2rem;
   line-height: 1.5;
   font-weight: normal;
+  color: var(--warm-black);
+}
+.currency--table--date p a {
+  padding: 2px;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-decoration: none;
   color: var(--warm-black);
 }
 .main--product--detail {
@@ -323,15 +329,16 @@ main {
 .bitcoin--img--container {
   width: 100%;
   min-width: 320px;
+  padding-top: 100px;
   height: 50vh;
-  background-image: url("./assets/imgs/bitcoinbaby-2x.jpg");
+  background-image: url("./assets/micelanious/square.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .bitcoin--img--container h2 {
   padding-top: 50px;
-  font-size: 2.4rem;
+  font-size: 3.4rem;
   font-weight: bold;
   line-height: 2.5rem;
   color: white;

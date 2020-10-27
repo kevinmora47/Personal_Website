@@ -13,3 +13,11 @@
   justify-content: center;
   align-items: center;
 }
+.bitcoin--img--container h2 {
+  padding-top: 150px;
+  font-size: 6.4rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  color: white;
+  text-align: center;
+}
